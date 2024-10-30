@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #000; /* Dark black background */
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-table {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-table td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px; /* Narrow padding for a slim border */
+}
+
+.inner-box {
+    background-color: #333333; /* Dark gray inner box */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 95vw;
+    height: 95vh;
+}
+
+.website-title {
+    font-size: 3em;
+    color: #00FF6C;
+    margin-bottom: 20px;
+}
+
+/* Existing Styles for Other Elements */
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.search-form-header {
+    color: #00FF6C;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.search-input {
+    font-size: 1.3em;
+    max-width: 900px;
+    width: 60%;
+    padding: 0.8em;
+    border-radius: 15px;
+    border: 2px solid #00FF6C;
+    color: #B2F8D0;
+    outline: none;
+    background-color: rgba(178, 248, 208, 0.15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    border: 3px solid #00FF6C;
+    box-shadow: 0 4px 12px rgba(0, 255, 108, 0.4);
+    background-color: rgba(178, 248, 208, 0.3);
+}
+
+.search-button {
+    font-size: 1.3em;
+    border: 2px solid #00FF6C;
+    color: #B2F8D0;
+    padding: 15px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgba(178, 248, 208, 0.15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: rgba(178, 248, 208, 0.5);
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 255, 108, 0.4);
+}
+
+.search-query {
+    color: #B2F8D0;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.query {
+    color: #00FF6C;
+    font-weight: normal;
+    text-decoration: underline;
+}
